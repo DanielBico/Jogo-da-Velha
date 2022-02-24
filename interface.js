@@ -38,19 +38,19 @@ function updateSquare(position) {
 
 // restart
 
-function resetGame() {
-  let squares = document.getElementById(restart);
+// function resetGame() {
+//   let squares = document.getElementById(restart);
 
-  squares.forEach((squares) =>{
-    let board = '';
-    let symbol = board[position];
+//   squares.forEach((squares) =>{
+//     let board = '';
+//     let symbol = board[position];
 
-    if (symbol != '') {
-      squares.innerHTML = `<div class= '${symbol}'></div>`;
-    }
+//     if (symbol != '') {
+//       squares.innerHTML = `<div class= '${symbol}'></div>`;
+//     }
 
-  })
-}
+//   })
+// }
 
 
 

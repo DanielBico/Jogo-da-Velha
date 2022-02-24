@@ -57,7 +57,7 @@ position: relative;
 
 .x::after {
   position: absolute;
-  content: "\1F361";
+  content: "\2694";
   font-size: 50px;
   line-height: 100px;
   top: 0;

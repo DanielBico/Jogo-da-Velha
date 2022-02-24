@@ -57,9 +57,9 @@ function isWin() {
 
 }
 
-function restart () {
+// function restart () {
  
-}
+// }
 
 
 
