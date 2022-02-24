@@ -1,0 +1,115 @@
+body{
+  text-align: center;
+  background-color: #6b9c7e;
+}
+
+.navbar ul, li{
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background-color: #155a04;
+  max-width: 960px;
+
+}
+
+.navbar li{
+padding: 15px;
+color: #fff;
+font-family: Verdana, sans-serif;
+font-size: large;
+
+}
+
+
+h1 {
+  font-family: Verdana, sans-serif;
+  margin-bottom: 40px;
+}
+
+.square {
+  width: 100px;
+  height: 100px;
+  background-color: #ccecd4;
+  border: 1px solid #333030;
+  display: inline-block;
+}
+
+.o {
+position: relative;
+}
+
+.o::after {
+  position: absolute;
+  content: "\1F383";
+  font-size: 50px;
+  line-height: 100px;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+
+.x {
+position: relative;
+}
+
+.x::after {
+  position: absolute;
+  content: "\1F361";
+  font-size: 50px;
+  line-height: 100px;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+#restart {
+  margin-top: 25px;
+  padding: 15px;
+  background-color: #155a04;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  font-family: Verdana, sans-serif;
+  font-size: 18px;
+}
+
+.linha {
+  margin: 0 auto;
+  content: '';
+  width: 30%;
+  height: 2px;
+  background: #155a04;
+  margin-top: 80px;
+}
+
+
+.linha1 {
+  margin: 0 auto;
+  content: '';
+  width: 15%;
+  height: 2px;
+  background: #155a04;
+  margin-top: 70px;
+  margin-bottom: 30px;
+}
+
+
+.jogos img {
+ max-width: 30em ;
+  
+}
+
+
+.fut {
+  padding: 10px;
+  background-color: #155a04;
+  color: #fff;
+  max-width: 960px;
+  margin: 0 auto;
+  font-family: Verdana, sans-serif;
+}
+
