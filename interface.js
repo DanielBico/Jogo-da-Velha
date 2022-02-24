@@ -36,29 +36,3 @@ function updateSquare(position) {
 
 
 
-// restart
-
-// function resetGame() {
-//   let squares = document.getElementById(restart);
-
-//   squares.forEach((squares) =>{
-//     let board = '';
-//     let symbol = board[position];
-
-//     if (symbol != '') {
-//       squares.innerHTML = `<div class= '${symbol}'></div>`;
-//     }
-
-//   })
-// }
-
-
-
-// function restart() {
-//   game.board();
-//   resetGame();
-//   let gameOverLayer = document.getElementById("gameOver");
-//   gameOverLayer.style.display = 'none';
-// };
-
-

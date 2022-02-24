@@ -57,12 +57,6 @@ function isWin() {
 
 }
 
-// function restart () {
- 
-// }
-
-
-
 
 
 
